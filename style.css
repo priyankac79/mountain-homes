@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #00001a;
+}
+.majestic-homes {
+    height: 100vh;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.majestic-homes img {
+    width: 6%;
+    height: 36vh;
+    object-fit: cover;
+    border: 2px solid #ffffff;  
+    border-radius: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.majestic-homes img:hover {
+    width: 20%;
+    border: 2px solid #00001a;
+}
